@@ -11,8 +11,8 @@
     
     
     header{background-color:var(--midnight-green-eagle-green);
-    width: 100%; display: flex; justify-content:space-between; height: 65px; max-width: 100000px;
-    position: fixed;
+    width: 100%; display: flex; justify-content:space-between; height: 65px; max-width: 100000gipx;
+    position:absolute;
     top: 0%;}
         
         
