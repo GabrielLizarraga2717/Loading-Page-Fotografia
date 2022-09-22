@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+* {padding: 0%; margin: 0%; box-sizing: border-box; text-decoration: none ; list-style-type: none; ;
+    font-family: 'Poppins', sans-serif;}
+
+    :root{
+        --black-coffee: #3a2e39ff;
+        --midnight-green-eagle-green: #1e555cff;
+        --unbleached-silk: #f4d8cdff;
+        --middle-yellow-red: #edb183ff;
+        --red-salsa: #f15152ff;
+        --fondo: #ADDDD0}
+    
+    
+    header{background-color:var(--midnight-green-eagle-green);
+    width: 100%; display: flex; justify-content:space-between; height: 65px; max-width: 4000px; top: 0%;}
+        
+        
+
+    .logo{height: 90%}
+
+    .navbar,
+    .listanavbar{display: flex; align-items: center; justify-content: center;}
+
+    .navbar{gap: 350px;}
+
+    .listanavbar{gap: 40px;}
+
+    .logocamara{height: 80%;}
+    
+    .listanavbar a {color:var(--unbleached-silk); font-size: 20px;}
+
+    main { background-color:var(--fondo);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    #hero{display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 10px;
+        padding: 30px 0;}
+
+    .hero-info{ display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 50px;}
+
+    .hero-info h1{font-size: 35px;
+        font-weight: 600;
+        color:var(--midnight-green-eagle-green)}
+
+    .hero-info p{ font-size: 18px;
+        font-weight: 500;
+        color: var(--red-salsa);}
+
+        .hero-info button{ background-color:var(--midnight-green-eagle-green);
+            width:100px;
+            color:white;
+            border-radius: 1rem;
+            cursor: pointer;}
+
+        .hero-foto{display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;}
+
+            .fotofacultad{width: 50%;
+                        height: 50%;
+                        border-radius: 1rem;}
+
+        .hero-foto p{ font-size: 17px;
+                    font-weight: 600;
+                    border: solid;
+                    border-color: black;
+                    
+                    color:white;
+                    background-color: var(--midnight-green-eagle-green);}
+
+        #informativo{ margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    margin-bottom: 10px;}
+                    
+                    
+    
+    
+    
+    
+                    .informativo-info p{
+                        border-radius: 0.5px;
+                        font-size: 20px;
+                        color:var(--unbleached-silk);
+                        font-weight: 600;
+                        background-color: var(--midnight-green-eagle-green);
+                        padding: 10px 10px;
+                        border-radius: 1rem;}
+
+
+
+    
+
+
+                    
+                    
+
+
+
+        
+                        
+            
+
+
+        
+
+
+    
+            
+
+
+        
+
+
+
+        
+
+    
+
+    
+
+   
+
+
+    
+    
+
+
+        
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+        
+        
+
+    
+
+
+
+    
+
+
+        
+
+    
+        
